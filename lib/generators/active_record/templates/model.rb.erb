@@ -1,0 +1,5 @@
+# frozen_string_literal: true
+
+class <%= table_name.singularize.camelize %> < ApplicationRecord
+  slow_your_roles :<%= role_col %>
+end

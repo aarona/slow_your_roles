@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'slow_your_roles'
-  s.version = '2.0.1'
+  s.version = '2.0.2'
   s.authors = ['Aaron A']
   s.date = '2020-04-21'
   s.summary = 'Easy role authorization in Rails'

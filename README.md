@@ -188,7 +188,7 @@ If you're using the bitmask method, an `ArgumentError` will be thrown if an unde
   # => SELECT "bitmask_users".* FROM "bitmask_users" WHERE "bitmask_users"."roles_mask" IN (1, 3, 5, 7) AND "bitmask_users"."active" = 't'
   
   SerializeUser.with_role('admin').where(active: true).to_sql
-  # => SELECT "serialize_users".* FROM "serialize_users" WHERE "serialize_users"."active" = 't' AND (serialize_users.roles LIKE "%!admin!%")
+  # => SELECT "serialize_users".* FROM "serialize_users" WHERE "serialize_users"."active" = 't' AND (serialize_users.roles LIKE '%!admin!%')
 ```
 
 slow_your_roles also supports a `without_role` scope.

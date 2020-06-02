@@ -82,11 +82,11 @@ module SlowYourRoles
         self.column = "#{table_name}.#{column_name}"
 
         scope :with_role, (proc { |r|
-          where("#{column} LIKE \"%#{roles_marker}#{r}#{roles_marker}%\"")
+          where("#{column} LIKE '%#{roles_marker}#{r}#{roles_marker}%'")
         })
 
         scope :without_role, (proc { |r|
-          where("#{column} NOT LIKE \"%#{roles_marker}#{r}#{roles_marker}%\" OR #{column} IS NULL")
+          where("#{column} NOT LIKE '%#{roles_marker}#{r}#{roles_marker}%' OR #{column} IS NULL")
         })
 
         define_method :add_role_markers do

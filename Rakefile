@@ -4,7 +4,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('slow_your_roles', '2.0.2') do |p|
+Echoe.new('slow_your_roles', '2.0.3') do |p|
   p.description    = 'Easy role authorization in rails'
   p.url            = 'http://github.com/aarona/slow_your_roles'
   p.author         = 'Aaron A'

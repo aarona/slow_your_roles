@@ -1,5 +1,6 @@
 ### September 2021 - Version 2.0.3
 Bumped activerecord requirement to 6.0.3.5 for security purposes
+Bumped rexml requirement to 3.2.5 for security purposes
 
 ### 2 June 2020 - Version 2.0.2
 Fixed incompatibility issue with PostgresSQL when using serialize role method.

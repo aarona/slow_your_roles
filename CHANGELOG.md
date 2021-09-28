@@ -1,4 +1,4 @@
-### September 2021 - Version 2.0.3
+### 28 September 2021 - Version 2.0.4
 Bumped activerecord requirement to 6.0.3.5 for security purposes
 Bumped rexml requirement to 3.2.5 for security purposes
 

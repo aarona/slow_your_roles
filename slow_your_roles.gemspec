@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'slow_your_roles'
-  s.version = '2.0.3'
+  s.version = '2.0.4'
   s.authors = ['Aaron A']
   s.date = '2020-04-21'
   s.summary = 'Easy role authorization in Rails'
@@ -29,9 +29,7 @@ Gem::Specification.new do |s|
   ]
   s.require_paths = ['lib']
 
-  # s.add_runtime_dependency('activesupport', ['>= 6.0.3.5'])
   s.add_runtime_dependency 'activesupport', '~> 6.0', '>= 6.0.3.5'
-  # s.add_development_dependency('activerecord', ['>= 6.0.3.5'])
   s.add_development_dependency 'activerecord', '~> 6.0', '>= 6.0.3.5'
   s.add_development_dependency('rspec', ['>= 0'])
   s.add_development_dependency('rubocop', ['>= 0'])

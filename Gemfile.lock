@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    slow_your_roles (2.0.3)
+    slow_your_roles (2.0.4)
       activesupport (~> 6.0, >= 6.0.3.5)
 
 GEM

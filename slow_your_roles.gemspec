@@ -29,8 +29,10 @@ Gem::Specification.new do |s|
   ]
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency('activesupport', ['>= 6.0.3.5'])
-  s.add_development_dependency('activerecord', ['>= 6.0.3.5'])
+  # s.add_runtime_dependency('activesupport', ['>= 6.0.3.5'])
+  s.add_runtime_dependency 'activesupport', '~> 6.0', '>= 6.0.3.5'
+  # s.add_development_dependency('activerecord', ['>= 6.0.3.5'])
+  s.add_development_dependency 'activerecord', '~> 6.0', '>= 6.0.3.5'
   s.add_development_dependency('rspec', ['>= 0'])
   s.add_development_dependency('rubocop', ['>= 0'])
   s.add_development_dependency('sqlite3', ['>= 0'])
